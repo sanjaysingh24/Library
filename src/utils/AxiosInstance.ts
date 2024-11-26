@@ -1,7 +1,7 @@
 import axios, { AxiosInstance} from "axios";
 
 const axiosInstance: AxiosInstance = axios.create({
-  baseURL: "http://localhost:3000/",
+  baseURL: "https://library-management-gray-nu.vercel.app/",
 });
 
 // Interceptor for requests
